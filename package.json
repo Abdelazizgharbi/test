@@ -1,0 +1,31 @@
+{
+  "name": "wallet-api",
+  "version": "0.1.0",
+  "description": "wallet-api",
+  "main": "server/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+	    "loopback": "2.29.0",
+	    "body-parser": "1.15",
+	    "jsonschema" : "1.1.0",
+	    "array-query" : "0.1.2",
+	    "moment" : "2.4.0",
+	    "node-cache" : "3.2.1",
+	    "log4js" : "0.6.36",
+	    "lodash":"latest",
+	    "clone":"latest",
+	    "web3":"latest"
+	  },
+  "repository": "",
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "nodeclipse"
+  ],
+  "author": "Karim Ezzine",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
